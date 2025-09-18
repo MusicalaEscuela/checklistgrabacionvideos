@@ -1,0 +1,59 @@
+{
+  "version": 2,
+  "defaults": { "preset": "general", "compact": false },
+  "sections": [
+    { "id": "prep", "label": "Preparación" },
+    { "id": "cams", "label": "Cámaras / Dispositivos" },
+    { "id": "audio", "label": "Sonido" },
+    { "id": "lights", "label": "Luces" },
+    { "id": "file", "label": "Archivo & Backup" },
+    { "id": "set", "label": "Espacio / Set" }
+  ],
+  "items": [
+    { "id": "bat_all", "cat": "prep", "title": "Celulares cargados", "emoji": "🔌", "help": "Batería ≥ 80% y, si se puede, powerbank a mano.", "critical": true },
+    { "id": "space_all", "cat": "prep", "title": "Espacio en el celular disponible (≥ 10 GB)", "emoji": "📱", "help": "Libera espacio: borra archivos viejos o súbelos a Drive/NAS.", "critical": true },
+    { "id": "notifs", "cat": "prep", "title": "Modo avión / notificaciones silenciadas", "emoji": "📵", "help": "Evita vibraciones, notifs o llamadas durante la toma.", "critical": true },
+    { "id": "vestuario", "cat": "prep", "title": "Vestuario & apariencia listos", "emoji": "🧥", "help": "Sin logos no permitidos; peinado/maquillaje; brillos en piel controlados.", "critical": true },
+    { "id": "plan", "cat": "prep", "title": "Guion/estructura a mano", "emoji": "📄", "help": "Puntos clave, orden de tomas, tiempos.", "critical": true },
+    { "id": "ext_ok", "cat": "prep", "title": "Extensiones eléctricas listas y en buen estado", "emoji": "🔌", "help": "Alargues y regletas sin falsos contactos; cinta para fijar; tomas libres." },
+    { "id": "cam_chg", "cat": "prep", "title": "Cámara cargada (batería OK)", "emoji": "📸", "help": "Batería principal ≥ 80% y repuesto a mano.", "critical": true },
+    { "id": "cam_space", "cat": "prep", "title": "Cámara con espacio disponible (SD vacía o ≥ 10 GB libres)", "emoji": "🧠", "help": "Si está llena, copia material a PC/NAS y formatea la tarjeta.", "critical": true },
+    { "id": "av_test", "cat": "prep", "title": "Prueba de audio y video realizada", "emoji": "🎧📹", "help": "Graba 10–15 s y revisa que se ve y se escucha bien antes de iniciar.", "critical": true },
+
+    { "id": "lens", "cat": "cams", "title": "Limpieza de lente", "emoji": "🧼", "help": "Usa pañito de microfibra, nunca camiseta o papel.", "critical": true },
+    { "id": "settings", "cat": "cams", "title": "FPS & resolución correctos", "emoji": "🎞️", "help": "Clases: 1080p/30fps · Danza: 1080p/60fps · Entrevistas: 4K/30fps si se puede." },
+    { "id": "wb", "cat": "cams", "title": "Balance de blancos fijo", "emoji": "⚪", "help": "Deja fijo 5000–5600 K con luces frías; 3200–3500 K si la luz es cálida.", "critical": true },
+    { "id": "shutter", "cat": "cams", "title": "Velocidad de obturación correcta", "emoji": "⏱️", "help": "1/50–1/60 si grabas a 25/30 fps · 1/100–1/120 si grabas a 50/60 fps." },
+    { "id": "iso_low", "cat": "cams", "title": "ISO bajo (100–400)", "emoji": "🌗", "help": "Sube solo si falta luz (hasta ~800). ISO alto mete ruido." },
+    { "id": "focus_lock", "cat": "cams", "title": "Enfoque fijo en rostro/instrumento", "emoji": "🎯", "help": "Usa MF o AF bloqueado. Activa “pico de enfoque” si lo permite.", "critical": true },
+    { "id": "exposure_face", "cat": "cams", "title": "Medición por puntos en el rostro", "emoji": "🌞", "help": "Mueve el indicador de exposición al rostro del/la protagonista." },
+    { "id": "stabil", "cat": "cams", "title": "Trípode / estabilización fija", "emoji": "📷", "help": "Nivelado, firme y sin vibraciones.", "critical": true },
+    { "id": "framing", "cat": "cams", "title": "Encuadre & foco", "emoji": "🖼️", "help": "Cabezas sin cortar, regla de tercios. Revisa foco antes de grabar." },
+
+    { "id": "mic", "cat": "audio", "title": "Micrófono conectado y con batería", "emoji": "🎤", "help": "Lavalier o boom cargado. Si es inalámbrico, revisa el transmisor.", "critical": true },
+    { "id": "room", "cat": "audio", "title": "Ruido ambiente controlado", "emoji": "🤫", "help": "Cierra puertas/ventanas, avisa “grabando”, apaga ventiladores.", "critical": true },
+    { "id": "mic_conn", "cat": "audio", "title": "Micrófonos (inalámbricos/alámbricos) cargados y conectados", "emoji": "🎙️", "help": "Emparejados/plug-in, prueba de voz y monitoreo activo.", "critical": true },
+
+    { "id": "lights_on", "cat": "lights", "title": "Iluminación estable", "emoji": "💡", "help": "Evita parpadeos y mezcla de temperaturas de color." },
+    { "id": "direction", "cat": "lights", "title": "Dirección de luz definida", "emoji": "🎯", "help": "Principal, relleno y contra si aplica." },
+    { "id": "amb_color", "cat": "lights", "title": "Luces de ambiente a color encendidas y ajustadas", "emoji": "🌈", "help": "Configura colores (cian/azul/fucsia/morado) y fija intensidades.", "critical": true },
+    { "id": "key_white", "cat": "lights", "title": "Luces blancas ajustadas al foco principal", "emoji": "🔦", "help": "Key orientada al/la cantante; relleno/contra balanceados.", "critical": true },
+
+    { "id": "slate", "cat": "file", "title": "Identificador / claqueta", "emoji": "🎬", "help": "Proyecto, escena, toma, fecha. Haz foto inicial a hoja con datos." },
+    { "id": "backup", "cat": "file", "title": "Plan de backup decidido", "emoji": "☁️", "help": "Copia al terminar en disco + nube (Drive/NAS)." },
+
+    { "id": "bg", "cat": "set", "title": "Fondo limpio / sin distracciones", "emoji": "🧱", "help": "Sin ruido visual; elementos de marca si aplica.", "critical": true },
+    { "id": "props", "cat": "set", "title": "Utilería revisada", "emoji": "🎭", "help": "Instrumentos/materiales listos y repuestos a mano." },
+    { "id": "safety", "cat": "set", "title": "Seguridad en piso / cables", "emoji": "🦺", "help": "Cables pegados, sin riesgos de tropiezo." },
+    { "id": "decor", "cat": "set", "title": "Decoración lista según concepto", "emoji": "🧩", "help": "Elementos estéticos coherentes con la pieza y sin recargar.", "critical": true },
+    { "id": "furniture", "cat": "set", "title": "Mobiliario listo (mesas, sillas) si se requiere", "emoji": "🪑", "help": "Estables, sin ruidos; ubícalos fuera de paso.", "critical": true },
+    { "id": "instruments", "cat": "set", "title": "Instrumentos afinados y listos", "emoji": "🎸", "help": "Piano/guitarra/ukelele/etc. afinados y en su base.", "critical": true }
+  ],
+  "presets": {
+    "general": [],
+    "entrevista": ["stabil", "mic", "room", "wb", "slate", "shutter", "iso_low", "focus_lock", "exposure_face"],
+    "danza": ["settings", "stabil", "framing", "lights_on", "direction", "shutter", "iso_low", "wb"],
+    "musica": ["mic", "framing", "props", "room", "space_all", "bat_all", "wb", "shutter", "iso_low", "focus_lock", "exposure_face", "av_test"],
+    "canto": ["ext_ok", "bg", "decor", "amb_color", "key_white", "cam_chg", "cam_space", "space_all", "bat_all", "mic", "mic_conn", "room", "wb", "shutter", "iso_low", "focus_lock", "exposure_face", "av_test", "stabil", "instruments", "furniture", "backup"]
+  }
+}
